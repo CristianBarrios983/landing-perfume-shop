@@ -1,0 +1,111 @@
+body{
+    font-family: 'Libre Caslon Display', serif;
+}
+.carousel-control-prev-icon{
+    padding: 2rem;
+    background-color: black;
+}
+.carousel-control-next-icon{
+    padding: 2rem;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.nav-link:hover{
+    color: black;
+    border-bottom: 4px solid black;
+}
+
+.card--1{
+    height: 440px;
+}
+.card--2{
+    height: 440px;
+}
+.card--3{
+    height: 440px;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-gray{
+    background-color: rgb(192, 192, 192);
+}
+
+.textinfo{
+    font-size: 6rem;
+}
+
+.margin{
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+}
+
+.padding{
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.hover-img{
+    object-fit: cover;
+}
+
+.img-person{
+    object-fit: cover;
+}
+
+.hover:hover{
+    color: black;
+    border-bottom: 4px solid black;
+    transition: .3s;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-bottom-color: black;
+    outline: 0;
+    box-shadow: none;
+  }
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .img-gallery{
+        width: 180px;
+        height: 180px; 
+    }
+    .padding-2{
+        padding: 4.5rem 10rem;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
