@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Libre Caslon Display', serif;
 }
@@ -43,6 +47,10 @@ body{
     font-size: 6rem;
 }
 
+.bg-dark-claro{
+    background-color: rgba(33, 37, 41, 0.623);
+}
+
 .margin{
     margin-top: 4.5rem;
     margin-bottom: 4.5rem;
@@ -75,9 +83,72 @@ body{
     border-bottom-color: black;
     outline: 0;
     box-shadow: none;
-  }
+}
 
+.btn-brown{
+    background-color: #664d03;
+}
+.btn-brown:hover{
+    background-color: #463502;
+}
 
+.gallery{
+    position: relative;
+}
+
+.img-gallery{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hover-gallery{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.63);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.hover-gallery:hover{
+    opacity: 1;
+    transition: .3s;
+}
+
+.images{
+    overflow: hidden;
+}
+
+.img-perfume{
+    width: 100%;
+    height: 100%;
+}
+
+.img-perfume:hover{
+    transform: scale(1.2);
+    transition: .8s;
+}
+
+.product-img{
+    overflow: hidden;
+}
+
+.img-pro{
+    width: 100%;
+    height: 100%;
+}
+
+.img-pro:hover{
+    transform: scale(1.2);
+    transition: .8s;
+}
+
+.img-ban{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
