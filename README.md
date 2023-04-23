@@ -1,7 +1,7 @@
 # landing-perfume-shop
 
 ## Descripcion 
-Este proyecto fue creado replicando la pagina de [Perfume Shop](https://mobirise.com/extensions/jewelrym5/perfume-shop/#features4-2) la cual fue tomada como inspiracion.
+Este proyecto fue creado replicando la pagina de [Perfume Shop](https://mobirise.com/extensions/jewelrym5/perfume-shop/#features4-2) la cual fue tomada como inspiracion. Para esta pagina utilice HTML, CSS y Bootstrap en su mayoria.
 
 ## Autor 
 **Cristian Barrios**
