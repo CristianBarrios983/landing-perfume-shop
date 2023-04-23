@@ -1,16 +1,20 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     font-family: 'Libre Caslon Display', serif;
 }
+
+/* ---------Bootstrap Styles--------- */
 .carousel-control-prev-icon{
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: black;
 }
 .carousel-control-next-icon{
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: black;
 }
 .navbar-brand{
@@ -24,6 +28,16 @@ body{
     color: black;
     border-bottom: 4px solid black;
 }
+.form-control{
+    border-radius: 0;
+}
+.form-control:focus {
+    border-bottom-color: black;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* ---------My Styles--------- */
 
 .card--1{
     height: 440px;
@@ -73,16 +87,6 @@ body{
     color: black;
     border-bottom: 4px solid black;
     transition: .3s;
-}
-
-.form-control{
-    border-radius: 0;
-}
-
-.form-control:focus {
-    border-bottom-color: black;
-    outline: 0;
-    box-shadow: none;
 }
 
 .btn-brown{
@@ -150,14 +154,18 @@ body{
     object-fit: cover;
 }
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    
+.overflow{
+    overflow: hidden;
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .carousel-control-prev-icon{
+        padding: 1rem;
+    }
+    .carousel-control-next-icon{
+        padding: 1rem;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -169,14 +177,4 @@ body{
     .padding-2{
         padding: 4.5rem 10rem;
     }
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-
 }
